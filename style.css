@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column; /* kontener główny w kolumnie */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(129, 186, 194);
+    gap: 20px; /* odstęp między wierszami */
+}
+
+
+.row {
+    display: flex;            
+    flex-direction: row;      
+    justify-content: center;
+    align-items: center;
+    gap: 0px;                
+    width: 60%;
+}
+
+.que {
+    background-color: rgb(136, 158, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.los button {
+    padding: 10px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+.col {   
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#answer {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.button{
+    cursor: pointer;
+}
