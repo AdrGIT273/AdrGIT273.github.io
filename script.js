@@ -6,9 +6,9 @@ let i =0 ;
 let List = ["Jak wita się mleko",
     "Jak nazywa się lina wyprodukowana w usa",
     "jaka dziewczyna najczęściej kopie swoje ciuchy",
-    "Jaki jest najlepszy nauczyciel"
+    "Jaki jest najlepszy nauczyciel","Przeniosłem swoją pracę doktosrką do:","Gdzie tańczą konie"
 ];
-let odpowiedzi = ["Mlekovita","trampolina","kopciuszek","nieobecny"];
+let odpowiedzi = ["Mlekovita","trampolina","kopciuszek","nieobecny","tmp","na balkonie"];
 
 let num; // globe
 function losuj() {
@@ -38,4 +38,5 @@ function check() {
     // Usuń pytanie i odpowiedź z listy
     List.splice(num, 1);
     odpowiedzi.splice(num, 1);
+
 }
