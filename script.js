@@ -8,17 +8,16 @@ do
 
     console.log("otrzymałem a równe", a)
 }
-while (  a>1444)
+while (  a<1444)
 
 
-do 
-{
-
-    console.log("otrzymałem i równe", i )
+for (;;) {
+  console.log("loop bez końca");
 }
-while (  i < 2)
 
-
+while (true) {
+  console.log("nieskończony loop");
+}
 
 
 
@@ -61,5 +60,6 @@ function check() {
     odpowiedzi.splice(num, 1);
 
 }
+
 
 
