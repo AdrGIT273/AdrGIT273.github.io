@@ -9,6 +9,8 @@ do
     console.log("otrzymałem a równe", a)
 }
 while (  a>1444)
+
+
 do 
 {
 
@@ -59,4 +61,5 @@ function check() {
     odpowiedzi.splice(num, 1);
 
 }
+
 
