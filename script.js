@@ -2,6 +2,25 @@
 
 
 let i =0 ;
+let a = 412
+do 
+{
+
+    console.log("otrzymałem a równe", a)
+}
+while (  a>1444)
+do 
+{
+
+    console.log("otrzymałem i równe", i )
+}
+while (  i < 2)
+
+
+
+
+
+
 
 let List = ["Jak wita się mleko",
     "Jak nazywa się lina wyprodukowana w usa",
@@ -40,3 +59,4 @@ function check() {
     odpowiedzi.splice(num, 1);
 
 }
+
